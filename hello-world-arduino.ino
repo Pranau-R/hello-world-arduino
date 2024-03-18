@@ -8,6 +8,7 @@ void loop()
     {
     // Print "Hello, World!" to the serial monitor
     Serial.println("Hello, World!");
+    Serial.println("This is demo sketch");
     // Wait for 1 second
     delay(1000);
     }
