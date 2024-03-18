@@ -55,6 +55,7 @@ jobs:
         with:
           repository: Pranau-R/mcci-catena-ci
           path: mcci-catena-ci
+          ref: hello-world
 
       - name: Set up to build
         run: bash mcci-catena-ci/setup.sh -l libraries/${{ env.MCCI_CI_LIBRARY }} -a ${{ matrix.arch }}
